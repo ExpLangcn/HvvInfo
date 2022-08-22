@@ -25,6 +25,10 @@
 
 Xray的就懒得截图了～
 
+## 非盈利星球（免费）
+
+![image-20220822115559517](https://tva1.sinaimg.cn/large/e6c9d24egy1h5femrdq9zj20v90h6jsc.jpg)
+
 ### 感谢
 
 感谢项目：
