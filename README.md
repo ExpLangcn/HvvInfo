@@ -2,7 +2,7 @@
 
 **一款在红蓝对抗中快速对目标单位进行资产探测和基本扫描的工具**
 
-![image-20220822114658705](https://tva1.sinaimg.cn/large/e6c9d24egy1h5fedd88ejj21920newgz.jpg)
+![image-20220901163642796](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r6xw0tj8j214o0u0n0x.jpg)
 
 ----
 
