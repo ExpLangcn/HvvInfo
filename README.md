@@ -6,24 +6,53 @@
 
 ----
 
-### 输入目标关键词自动探测主域名
+## 基础用法
 
-![image-20220822113808333](https://tva1.sinaimg.cn/large/e6c9d24egy1h5fe4uwnucj227v0u0jvn.jpg)
+**对目标单位进行资产收集和子域名探测并进行存活探测**
 
-![image-20220822113841378](https://tva1.sinaimg.cn/large/e6c9d24egy1h5fe4tthvoj21yc0u0ag1.jpg)
+> ./HvvInFo -n "百度" -c "天眼查的cookie"
 
-### 对主域名进行子域名探测
+**对多个目标单位进行资产收集和子域名探测并进行存活探测**
 
-![image-20220822113919370](https://tva1.sinaimg.cn/large/e6c9d24egy1h5fe5f43gtj226n0u00y0.jpg)
+> ./HvvInFo -f "NameTarget.txt"
 
-### 自动探测子域名的存活状态并进行端口扫描和指纹扫描
+**对目标主域名进行子域名探测和存活检测**
 
-![image-20220822113609061](https://tva1.sinaimg.cn/large/e6c9d24egy1h5fe4xo6hsj21r90u0k63.jpg)
+> ./HvvInFo -df "1.txt"
 
-**自动探测存活状态并存储Success状态资产调用Xray进行自动化扫描**
+## 进阶用法
 
+**对目标单位进行信息搜集并对指定漏洞进行扫描**
 
-Xray的就懒得截图了～
+> ./HvvInFo -n "百度" -c "天眼查的cookie" -pn "xxx.yaml"
+
+**对目标单位进行信息搜集并进行多漏洞扫描**
+
+> ./HvvInFo -n "百度" -c "天眼查的cookie" -pf "pocs/*"
+
+**对多个目标单位进行信息搜集并对指定漏洞进行扫描**
+
+> ./HvvInFo -f "NameTarget.txt" -pn "xxx.yaml"
+
+**对多个目标单位进行信息搜集并进行多漏洞扫描**
+
+> ./HvvInFo -f "NameTarget.txt" -pf "pocs/*"
+
+**对目标主域名进行子域名探测和存活检测并对指定漏洞进行扫描**
+
+> ./HvvInFo -f "NameTarget.txt" -pn "xxx.yaml"
+
+**对目标主域名进行子域名探测和存活检测并进行多漏洞扫描**
+
+> ./HvvInFo -f "NameTarget.txt" -pf "pocs/*"
+
+**对指定Url进行指定漏洞扫描**
+
+> ./HvvInFo -pu "http://127.0.0.1/" -pn "xxx.yaml"
+
+**对指定Url进行多漏洞扫描**
+
+> ./HvvInFo -pu "http://127.0.0.1/" -pf "pocs/*"
 
 ## 非盈利星球（免费）
 
@@ -32,8 +61,6 @@ Xray的就懒得截图了～
 ### 感谢
 
 感谢项目：
-* [rad](https://github.com/chaitin/rad)
-* [xray](https://github.com/chaitin/xray)
 * [httpx](https://github.com/projectdiscovery/httpx)
 * [subfinder](https://github.com/projectdiscovery/subfinder)
 * [ENScan_GO](https://github.com/wgpsec/ENScan_GO)
