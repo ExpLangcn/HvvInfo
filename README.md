@@ -10,6 +10,11 @@
 
 **注意使用sudo权限运行程序**
 
+**Cookie只需要取auth_token字段即可**
+
+<img width="1203" alt="image" src="https://user-images.githubusercontent.com/52586866/220052242-68db78e4-e482-454c-b18f-a0b204b6f47e.png">
+
+
 ## 基础用法
 
 **对目标单位进行资产收集和子域名探测并进行存活探测**
